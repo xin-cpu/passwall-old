@@ -8,7 +8,9 @@ luci-app-passwall停止开发，当然如果存在BUG，欢迎各位大佬PR。
 
 使用方法：
 
-添加 src-git lienol https://github.com/Lienol/openwrt-package 到 OpenWRT源码根目录feeds.conf.default文件
+添加 src-git lienol https://github.com/xin-cpu/passwall-old 到 OpenWRT源码根目录feeds.conf.default文件
+
+sed -i '$a src-git lienol https://github.com/xin-cpu/passwall-old' feeds.conf.default
 
 使用上面源码请忽略上一步
 
@@ -24,7 +26,7 @@ luci-app-passwall停止开发，当然如果存在BUG，欢迎各位大佬PR。
 
 Some OpenWrt/LEDE LuCI for Commonly Used Package
 
-Add "src-git lienol https://github.com/Lienol/openwrt-package" to feeds.conf.default.
+Add "src-git lienol https://github.com/xin-cpu/passwall-old" to feeds.conf.default.
 
 ```bash
 ./scripts/feeds clean
